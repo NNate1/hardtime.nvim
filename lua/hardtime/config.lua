@@ -373,11 +373,36 @@ M.config = {
    },
    ---@type function
    callback = function(text)
-      vim.notify(
-         text,
-         vim.log.levels.WARN,
-         { title = "hardtime", timeout = M.config.timeout }
-      )
+      -- vim.notify(
+      --    text,
+      --    vim.log.levels.WARN,
+      --    { title = "hardtime", timeout = M.config.timeout }
+      -- )
+
+      local start_time = vim.loop.hrtime() -- Time in nanoseconds
+
+      vim.notify(text, vim.log.levels.WARN, {
+         title = "hardtime",
+         timeout = M.config.timeout,
+         -- on_open = function()
+         --    print("Notification started at: " .. os.date("%M:%S"))
+         -- end,
+         on_close = function()
+            local end_time = vim.loop.hrtime()
+            local duration_ns = end_time - start_time -- Duration in nanoseconds
+            local duration_ms = duration_ns / 1e6 -- Convert to milliseconds
+            local duration_s = duration_ns / 1e9 -- Convert to seconds
+
+            -- print(string.format("Notification ended at: %s", os.date("%M:%S")))
+            print(
+               string.format(
+                  "Duration: %.3f seconds (%.0f ms)",
+                  duration_s,
+                  duration_ms
+               )
+            )
+         end,
+      })
    end,
 }
 

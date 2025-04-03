@@ -1,0 +1,29 @@
+Timeout 10000
+Duration: 102.436 seconds (102436 ms)
+Duration: 102.430 seconds (102430 ms)
+
+Timeout 5000
+Duration: 7.417 seconds (7417 ms)
+Duration: 7.387 seconds (7387 ms)
+Duration: 7.395 seconds (7395 ms)
+Duration: 7.386 seconds (7386 ms) 
+
+Timeout 3000 
+Duration: 5.476 seconds (5476 ms)
+Duration: 5.420 seconds (5420 ms)
+Duration: 5.408 seconds (5408 ms)
+
+Timeout 1000
+Duration: 3.409 seconds (3409 ms)
+Duration: 3.418 seconds (3418 ms)
+Duration: 3.404 seconds (3404 ms)
+Duration: 3.385 seconds (3385 ms)
+Duration: 3.396 seconds (3396 ms)
+
+Timeout 0
+Duration: 2.671 seconds (2671 ms)
+Duration: 2.408 seconds (2408 ms)
+Duration: 2.419 seconds (2419 ms)
+Duration: 2.414 seconds (2414 ms)
+Duration: 2.413 seconds (2413 ms)
+Duration: 2.403 seconds (2403 ms)

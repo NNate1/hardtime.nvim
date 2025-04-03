@@ -1,0 +1,17 @@
+Timeout 5000
+Duration: 5.001 seconds (5001 ms)
+Duration: 5.000 seconds (5000 ms)
+Duration: 5.001 seconds (5001 ms)
+Duration: 5.007 seconds (5007 ms)
+
+
+Timeout 3000
+Duration: 3.032 seconds (3032 ms)
+Duration: 3.001 seconds (3001 ms)
+Duration: 3.001 seconds (3001 ms)
+
+
+Timeout 000
+Duration: 0.006 seconds (6 ms)
+Duration: 0.012 seconds (12 ms)
+Duration: 0.004 seconds (4 ms)

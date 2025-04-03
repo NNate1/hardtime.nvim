@@ -1,0 +1,13 @@
+Timeout 3000
+Duration: 4.421 seconds (4421 ms)
+Duration: 4.334 seconds (4334 ms)
+Duration: 4.323 seconds (4323 ms)
+Duration: 4.332 seconds (4332 ms)
+Duration: 4.327 seconds (4327 ms)
+Duration: 4.259 seconds (4259 ms)
+
+Timeout 000
+Duration: 1.364 seconds (1364 ms)
+Duration: 1.278 seconds (1278 ms)
+Duration: 1.296 seconds (1296 ms)
+Duration: 1.293 seconds (1293 ms)
